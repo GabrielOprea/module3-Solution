@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+#chicken, #beef, #sushi
+{
+
+	background-color: #C4C4C4;
+	
+	height: 1000px;
+	width: 100%;
+	position: relative;
+
+ 	border: 3px solid black;
+
+	bottom: 2.5%;
+
+	margin-top: 3.75%;
+	box-shadow: 0 0 80px #564d57;
+}
+
+.container-fluid{
+	padding: 0;
+}
+
+.navbar-header{
+	width: 100%;
+	background-color: #E2D8E3;
+	padding: 0;
+}
+
+.navbar-toggle{
+	border: 2px solid white;
+	margin-right: 25px;
+}
+
+.navbar-brand{
+  font-size: 40px;
+  padding-left: 50px;
+}
+
+.nav{
+	text-align: center;
+	font-size: 1.5em;
+	border: 2px solid black;
+}
+.navbar-brand:hover{
+	width: 100%;
+	background-color: green;
+}
+
+#chicken-title, #beef-title, #sushi-title
+{
+	text-align: center;
+	background-color: #DEAD28;
+	margin-bottom: auto;
+	position: relative;
+	border: 3px solid black;
+	top: -2.5%;
+	font-family: 'Cambria', 'Times New Roman', 'Serif';
+	font-weight: bold;
+	color: #BF0B71;
+	font-style: italic;
+
+}
+
+#chicken-text, #beef-text, #sushi-text
+{
+	font-size: 20px;
+	font-style: italic;
+	padding: 10px;
+}
+
+#title
+{
+	color: #820518;
+	font-size: 3em;
+}
